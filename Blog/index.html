@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curso HTML</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Precio</th>
+                <th>Producto</th>
+            </tr>
+        </thead>
+
+       <tbody>
+            <tr>
+                <td>Hola beats</td>
+                <td>Gratis</td>
+            </tr>
+
+            <tr>
+                <td>Manzanas</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>Peras</td>
+                <td>20</td>
+            </tr>
+       </tbody>
+       <tfoot>
+            <td></td>
+            <td>Total: 30</td>
+       </tfoot>
+    </table>
+
+    <!--Lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <!--Lista ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input value="nombre" type= "text" id="nombre" name="nombre" placeholder="Nombre" /> 
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="apellido" type= "text" id="apellido" name="apellido" placeholder="Apellido" />
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea cols="50"rows ="10" id="comentario" placeholder="ingrese comentario" name="comentario">Este es un valor por defecto</textarea> 
+        <br>
+        <button type="button">Tipo button</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Arturo que tal</h6>
+    <p>Mi primer parrafo.</p>
+    <p>Mi segundo parrafo</p>
+    <hr>
+    <h2>Mas heading</h2>
+    <p>
+        Texto largo <span style="color:blue"> que flipas </span> 
+        para probar <br>
+        soy bobo
+    </p>
+    <!--un comentario (no aparecen en el explorador)-->
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <br>
+    <img src="img/download.png" height="400" width="600"/>
+</body>
+</html>
