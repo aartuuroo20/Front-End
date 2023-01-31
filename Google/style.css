@@ -18,12 +18,20 @@ header{
     color: black;
 }
 
+.parrafoHeader:hover{
+    text-decoration: underline;
+}
+
 .parrafoHeaderDerecha{
     float: right;
     margin-right: 0.5rem;
     margin-top: 0.5rem;
     text-decoration: none;
     color: black;
+}
+
+.parrafoHeaderDerecha:hover{
+    text-decoration: underline;
 }
 
 .puntos{
@@ -189,13 +197,21 @@ footer{
     margin-top: 1rem;
 }
 
-#parrafoFooterCentral{
+.parrafoFooter:hover{
+    text-decoration: underline;
+}
+
+.parrafoFooterCentral{
     position: absolute;
     margin-left: 450px;
     text-decoration: none;
     color: black;
     font-size: 1rem;
     margin-top: 1rem;
+}
+
+.parrafoFooterCentral:hover{
+    text-decoration: underline;
 }
 
 .parrafoFooterDerecha{
@@ -205,6 +221,10 @@ footer{
     color: black;
     font-size: 1rem;
     margin-top: 1rem;
+}
+
+.parrafoFooterDerecha:hover{
+    text-decoration: underline;
 }
 
 
