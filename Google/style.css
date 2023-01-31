@@ -3,6 +3,7 @@ body{
     height: 100%;
     max-width: 90%;
     max-height: 90%;
+    background-attachment: fixed;
 }
 
 header{
@@ -11,39 +12,28 @@ header{
 
 .parrafoHeader{
     float: left;
+    margin-top: 0.5rem;
     margin-left: 0.5rem;
+    text-decoration: none;
+    color: black;
 }
 
 .parrafoHeaderDerecha{
     float: right;
     margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: black;
 }
 
 .puntos{
-   position: absolute;
-   cursor: pointer;
-   display: grid;
-   grid-template-columns: repeat(3, 0.2fr);
-   grid-template-rows: repeat(3, 0.2fr);
-   grid-column-gap: 0.5px;
-   grid-row-gap: 0.5px;
-   height: 40px;
-   width: 40px;
-   top: -5%;
-   left: 92%;
-   border-radius: 50%;
-}
-
-.punto{
-    position: relative;
-    display: block;
-    top: 100%;
-    left: 10%;
-    width: 4px;
-    height: 4px;
-    border-radius: 999px;
-    background: #464646;
-    overflow: hidden;
+    float: right;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 99rem;
+    margin-top: 0.5rem;
+    width: 20px;
+    height: 20px;
 }
 
 .g#first{
@@ -193,17 +183,28 @@ footer{
 .parrafoFooter{
     float: left;
     margin-left: 1rem;
-
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin-top: 1rem;
 }
 
 #parrafoFooterCentral{
     position: absolute;
-    margin-left: 850px;
+    margin-left: 450px;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin-top: 1rem;
 }
 
 .parrafoFooterDerecha{
     float: right;
     margin-right: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin-top: 1rem;
 }
 
 
