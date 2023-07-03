@@ -1,0 +1,2 @@
+Videogame of space invader where you have to destroy all enemies in order to win. If you get hit by an enemy laser you are eliminated.
+In orther to play you have to press A/Left arrow to move left side and D/Right arrow to move right side, in orther to fire lasers you have press space key.

@@ -1,0 +1,14 @@
+
+
+.botones{
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    border: 1px solid #E5E5E5;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
