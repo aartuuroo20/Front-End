@@ -1,6 +1,0 @@
-{
-  "deno.codeLens.implementations": true,
-  "deno.enable": true,
-  "deno.config": "deno.json",
-  "deno.importMap": "import_map.json"
-}
