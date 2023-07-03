@@ -1,0 +1,232 @@
+body{
+    width: 100%;
+    height: 100%;
+    max-width: 90%;
+    max-height: 90%;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: black;    
+}
+
+.parrafoHeader{
+    float: left;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.parrafoHeader:hover{
+    text-decoration: underline;
+}
+
+.parrafoHeaderDerecha{
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.parrafoHeaderDerecha:hover{
+    text-decoration: underline;
+}
+
+.puntos{
+    float: right;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 99rem;
+    margin-top: 0.5rem;
+    width: 20px;
+    height: 20px;
+}
+
+.g#first{
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    color: black;
+    font-size: 90px;
+    color: blue;
+}
+
+.o#first{
+    position: absolute;
+    top: 20%;
+    left: 45.5%;
+    color: black;
+    font-size: 90px;
+    color: red;
+}
+
+.o#second{
+    position: absolute;
+    top: 20%;
+    left: 48%;
+    color: black;
+    font-size: 90px;
+    color: yellow;
+}
+
+.g#second{
+    position: absolute;
+    top: 20%;
+    left: 50.5%;
+    color: black;
+    font-size: 90px;
+    color: blue;
+}
+
+.l{
+    position: absolute;
+    top: 20%;
+    left: 53%;
+    color: black;
+    font-size: 90px;
+    color: green;
+}
+
+.e{
+    position: absolute;
+    top: 20%;
+    left: 54.5%;
+    color: black;
+    font-size: 90px;
+    color: red;
+}
+
+.buscador{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+}
+
+#barraBuscador{ 
+    width: 100%;
+    height: 2.8rem;
+    background: #f5f5f5;
+    outline: none;
+    padding: 0 0 0 3rem;
+    display: flex;
+    border: 1px solid #5f6368;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+#lupa{
+    position: absolute;
+    top: 10%;
+    left: -2%;
+    width: 35px;
+    height: 2.8rem;
+    margin-left: -3,5rem;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#lupa:hover{
+    cursor: pointer;
+}
+
+.boton1{
+    position: absolute;
+    top: 43%;
+    left: 42%;
+    width: 130px;
+    height: 40px;
+}
+
+.boton1:hover{
+    cursor: pointer;
+}
+
+.boton2{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    width: 130px;
+    height: 40px;
+}
+
+.boton2:hover{
+    cursor: pointer;
+}
+
+#idiomas{
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    font-size: 15px;
+}
+
+footer{
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    height: auto;
+    width:100%;
+    height: 10%;
+    background: #c3c3c3 ;
+    font-size: 15px;
+}
+
+.footerSection1{
+    border-bottom: 1px solid;
+}
+
+.parrafoFooterSuperior{
+    margin-left: 1rem;    
+}
+
+.parrafoFooter{
+    float: left;
+    margin-left: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.parrafoFooter:hover{
+    text-decoration: underline;
+}
+
+.parrafoFooterCentral{
+    position: absolute;
+    margin-left: 450px;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.parrafoFooterCentral:hover{
+    text-decoration: underline;
+}
+
+.parrafoFooterDerecha{
+    float: right;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.parrafoFooterDerecha:hover{
+    text-decoration: underline;
+}
+
+
+
+

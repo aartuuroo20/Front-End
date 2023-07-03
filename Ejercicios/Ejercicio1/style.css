@@ -1,0 +1,47 @@
+body{
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap; 
+      
+}
+
+#results{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+
+.text{
+    height: 30px;
+    border-radius: 5px;
+    left: 50rem;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#buscar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+}
+
+#buscarPagina{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    background-color: red;
+    float: right;
+    align-items: flex-start;
+
+}
