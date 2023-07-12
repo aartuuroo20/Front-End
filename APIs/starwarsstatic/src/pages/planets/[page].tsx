@@ -9,6 +9,8 @@ type Planet = {
 }
 
 type PageProps = {
+    next: string | null
+    previous: string | null
     results: Planet[]
 }
 
@@ -51,10 +53,14 @@ export const getStaticProps: GetStaticProps = async (context) => {
         })
         return planets
     })
+
+    console.log(data.next)
        
     return {
         props: {
-            results: planets
+            results: planets,
+            next: data.next,
+            previous: data.previous
         }
     }
 
@@ -65,6 +71,12 @@ const PlanetList = (props: PageProps) => {
     return (
         <div>
             <h1>Planets</h1>
+
+            <div>
+                <a href={`/planets/${props.previous?.split('=')[1]}`}>Previous</a>
+                <a href={`/planets/${props.next?.split('=')[1]}`}>Next</a>
+            </div>
+
            <div>
                 {props.results.map((planet: Planet) => (
                     <div key={planet.name}>
