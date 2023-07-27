@@ -34,15 +34,14 @@ const Events = () => {
 
     const addEventHandler = async () => {
         try {
-            const response = await fetch('http://localhost:8080/addEvent', {
+            const response = await fetch('http://localhost:4000/addEvent', {
                 method: 'POST',
                 body: JSON.stringify({
-                    titulo: addTitulo,
-                    descripcion: addDescripcion,
-                    fecha: addFecha,
-                    horaInicio: addInicio,
-                    horaFinal: addFin,
-                    invitados: addInvitados.split(', ')
+                    title: addTitulo,
+                    date: addDescripcion,
+                    init: addFecha,
+                    end: addInicio,
+                    participants: addInvitados.split(', ')
                 })
             })
             const data = await response.json()
@@ -54,7 +53,7 @@ const Events = () => {
     }
 
     const getEventsHandler = async () => {
-        const response = await fetch('http://localhost:8080/events')
+        const response = await fetch('http://localhost:4000/events')
         const data = await response.json()
         setEventos(data)
     }
